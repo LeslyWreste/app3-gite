@@ -1,0 +1,281 @@
+<!doctype html>
+
+<!DOCTYPE html>
+<html>
+
+ <head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Día mundial de la bicicleta</title>
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/tema2.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ 
+  <!--grupo JavaScript-->
+  <script src ="js/jquery-1.11.2.min.js"></script>
+  <script src ="js/jquery.mobile-1.4.5.min.js"></script>
+  <!--<script src ="js/acciones.js" type= "text/javascript"></script>-->
+ 
+  <script src ="phonegap.js"></script><!--necesario*/-->
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+ </head>
+
+<body onLoad="MM_preloadImages('imagenes/trek.jpg','imagenes/canyon.jpg')">
+
+ <div data-role="page" id="Principal" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Día Mundial De La Bicicleta </h1>
+  </div> 
+  <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1> Baner conmemorativo: </h1>
+    <div>
+     <p> Se uno mas y participa en el evento conmemorativo </p>
+     <br> 
+    </div>
+    <div>
+     <img src="imagenes/19-de-abril-dia-bicicleta-4-e1461017361556.png">
+    </div>
+   </div>
+  </div>
+  <div>
+    <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> Historia de la Bicicleta</h2>
+      
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Utilizacion como medio de transporte </h2>
+ 
+      </a>      
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Tipos de bicicleta</h2>
+        
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>5 marcas importantes de bicicletas</h2>
+      
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>¿Por que se celebra el dia mundial de la bicicleta?</h2>
+       
+      </a>      
+     </li>      
+    </ul>
+  </div>
+  <div dara-role="footer" align="center" data-theme="b" data-position="fixed">
+   <div>
+    <img src="imagenes/bike-icon.png">
+   </div>
+   <div>
+    <h4>Aplicación Tres</h4>
+    <h4>Lesly Milan Wreste </h4>
+   </div>
+  </div>
+ </div>
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Utilizacion</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>¿Quién invento la primera bicicleta? </h2>
+<ul>
+
+<li> En 1816 el barón alemán Karl Christian Ludwig Drais Von Sauerbronn invento su Laufmaschine (maquina andante) consistente en un armazón con ruedas con una vara de madera unida a la rueda delantera y que el tripulante dirigía, tenía una almohadilla como asiento, se impulsaba alternando los pies en el suelo, como si se patinara. Se le denomino draisiana en honor a su inventor aunque después se le conoció como velocípedo.</li>
+
+<li> En Inglaterra se le conoció como balancín.</li>
+
+<li> En 1818 apareció un modelo mejorado dandy horse se patento en 1819 en Estados Unidos pero no genero mucho interés.</li>
+
+<li> En 1839 el herrero escoces Kirkpatrick Macmillan construyo la primera bicicleta con pedales también le añadió palancas de conducción, fue mejorada en 1846 por Gavin Dalzell.</li>
+</ul>
+<div>
+  <img src="imagenes/images.jpg">
+
+</div>
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <div>
+    <img src="imagenes/bike-icon.png">
+   </div>
+   <h4>Aplicación Tres, LMW</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Utilización como medio de transporte</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2> La bicicleta sí es efectiva como medio de transporte para distancias no tan extensas, para usarla dentro de una ciudad o pueblo es de mucha utilidad.
+El uso de la bicicleta está extendido en casi todo el continente europeo. En países como Holanda, Suiza, Alemania, unas zonas de Polonia y en los países nórdicos; se ha convertido en uno de los primordiales medios de transporte. Pasando a Asia, fundamentalmente en China y La India, es la primera forma de transporte.
+Actualmente, en el mundo, existen cerca de 800 millones de bicicletas, siendo China el país poseedor de la mayor cantidad de estos vehículos.
+ </h2>
+ <div>
+ <img src="imagenes/en-bici-al-trabajo.jpg">
+ </div>
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <div>
+    <img src="imagenes/bike-icon.png">
+   </div>
+   <h4>Aplicación Tres, LMW</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Tipos de bicicleta</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>Bicicletas de Montaña -(MTB)-
+    Bicicletas de Ruta-
+    Bicicletas Híbridas-
+    Bicicletas Urbanas-
+    Bicicletas plegables-
+    Fixies y single speed-
+    Cruisers-
+    MBX-
+    Touring-
+    Eléctricas-
+    Bicicletas utilitarias-
+    Fat Bikes
+    </h2>
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/cargo.jpg" alt="cargo" title="cargo" id="wows2_0"/></li>
+		<li><img src="data2/images/ciudad.jpg" alt="ciudad" title="ciudad" id="wows2_1"/></li>
+		<li><img src="data2/images/cruiser.jpg" alt="cruiser" title="cruiser" id="wows2_2"/></li>
+		<li><img src="data2/images/electricas.jpg" alt="electricas" title="electricas" id="wows2_3"/></li>
+		<li><img src="data2/images/fat_bike.jpg" alt="fat_bike" title="fat_bike" id="wows2_4"/></li>
+		<li><img src="data2/images/hibrida.jpg" alt="hibrida" title="hibrida" id="wows2_5"/></li>
+		<li><img src="data2/images/mbx_1.jpg" alt="MBX (1)" title="MBX (1)" id="wows2_6"/></li>
+		<li><img src="data2/images/mtb.jpg" alt="MTB" title="MTB" id="wows2_7"/></li>
+		<li><img src="data2/images/plegable.jpg" alt="plegable" title="plegable" id="wows2_8"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/ruta.jpg" alt="wow slider" title="ruta" id="wows2_9"/></a></li>
+		<li><img src="data2/images/touring.jpg" alt="touring" title="touring" id="wows2_10"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="cargo"><span><img src="data2/tooltips/cargo.jpg" alt="cargo"/>1</span></a>
+		<a href="#" title="ciudad"><span><img src="data2/tooltips/ciudad.jpg" alt="ciudad"/>2</span></a>
+		<a href="#" title="cruiser"><span><img src="data2/tooltips/cruiser.jpg" alt="cruiser"/>3</span></a>
+		<a href="#" title="electricas"><span><img src="data2/tooltips/electricas.jpg" alt="electricas"/>4</span></a>
+		<a href="#" title="fat_bike"><span><img src="data2/tooltips/fat_bike.jpg" alt="fat_bike"/>5</span></a>
+		<a href="#" title="hibrida"><span><img src="data2/tooltips/hibrida.jpg" alt="hibrida"/>6</span></a>
+		<a href="#" title="MBX (1)"><span><img src="data2/tooltips/mbx_1.jpg" alt="MBX (1)"/>7</span></a>
+		<a href="#" title="MTB"><span><img src="data2/tooltips/mtb.jpg" alt="MTB"/>8</span></a>
+		<a href="#" title="plegable"><span><img src="data2/tooltips/plegable.jpg" alt="plegable"/>9</span></a>
+		<a href="#" title="ruta"><span><img src="data2/tooltips/ruta.jpg" alt="ruta"/>10</span></a>
+		<a href="#" title="touring"><span><img src="data2/tooltips/touring.jpg" alt="touring"/>11</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap carousel</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <div>
+<img src="imagenes/bike-icon.png">
+   </div>
+   <h4>Aplicación Tres, LMW</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Marcas Importantes</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>Algunas de las marcas importantes son; CANYON-GIANT-SCOTT-SPECIALIZED-TREK </h2>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image33','','imagenes/trek.jpg',1)"><img src="imagenes/giant.jpg" width="640" height="426" id="Image33"></a>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image34','','imagenes/canyon.jpg',1)"><img src="imagenes/specialized.jpg" width="640" height="427" id="Image34"></a> </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <div>
+  <img src="imagenes/bike-icon.png">
+   </div>
+   <h4>Aplicación Tres, LMW</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>¿Por que se celebra el dia de la bicicleta?</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>Conoce por qué el 19 de abril se conmemora el día mundial de la bicicleta</h2>
+ <p> El 19 de abril, desde el año 1985, se celebra en diversas partes del mundo el Día de la Bicicleta. Se dice que esta fecha se empezó a conmemorar a raíz de que el químico suizo Albert Hofmann, ingirió un químico con el que experimentaba, llamado “LSD” (Dietilamida de Ácido Lisérgico) el cual tiene efectos psicotrópicos.
+ Dicen que Albert Hofmann viajó un 19 de abril en su bicicleta bajo los efectos de este químico, narrando posteriormente su travesía en bicicleta bajo los efectos del LSD de la siguiente manera: “poco a poco comencé a disfrutar de una sucesión de colores y formas sin precedentes, aun con mis ojos cerrados. Fantásticas imágenes caleidoscópicas surgían en mí, alternantes, variadas, se abrían y cerraban en círculos y espirales, y explotaban como fuentes de color, se reordenaban y mezclaban en un flujo constante”.
+ Este peculiar suceso acontecido en 1943, fue considerado en su momento un avance para la ciencia psiquiátrica, sin embargo fue hasta 1985 cuando el profesor estadounidense Thomas B. Roberts en el condado de DeKalb (Illinois, Estados Unidos), inició con la peculiar celebración del “Día de la Bicicleta” en conmemoración al descubrimiento de Hofmann.Si bien el día de la bicicleta no es celebrado a la fecha por Naciones Unidas o declarado día nacional por el gobierno de México, cada vez cobra más fuerza su conmemoración a nivel mundial; la misma se asocia al deporte y a las ciudades con menor índice de vehículos automotores para mitigar los diversos conflictos conocidos a la fecha derivados de su exceso.
+ 
+ Si celebras el día de la bicicleta rodando o te trasladas en este artefacto en tu día, recuerda que según el artículo 12 de la Ley de Movilidad y Transporte del Estado de Jalisco los ciclistas también pueden transitar por ciertas vialidades como un vehículo automotor y en síntesis tienen los siguientes derechos (entre otros):
+ <ul>
+<li> De una movilidad segura y preferencial antes que el transporte público y particular</li>
+<li> Transitar por el centro del primer carril de la derecha</li>
+<li> Transitar sobre dos carriles cuando se trate de grupos de más de cincuenta ciclistas, estos grupos podrán peticionar adicionalmente el apoyo de la Secretaría y el auxilio de los cuerpos de seguridad</li>
+<li> Circular entre carriles cuando: a) El tránsito esté detenido y pretenda reiniciar su marcha b) Necesite rebasar un vehículo que esté detenido en el carril sobre el que circula c) Necesite rebasar un vehículo de transporte público, que esté subiendo o bajando pasaje</li>
+<li> Contar preferencialmente con áreas de espera ciclista al frente del carril en toda su anchura para reiniciar la marcha en posición adelantada</li>
+<li> Trasladar su bicicleta en las unidades de transporte público colectivo que cuenten con los aditamentos para realizarlo</li>
+<li> Contar con vías de circulación suficientes, seguras e interconectadas. Disfrutar de su uso exclusivo</li>
+<li> Gozar de preferencia de paso sobre el transporte público y particular en los siguientes supuestos: a) Que teniendo el derecho de paso de acuerdo con el ciclo de semáforo no alcancen a cruzar la vía b) Que se encuentren circulando por una vía, en la cual los vehículos dan vuelta a la derecha, por lo que el automóvil deberá esperar detrás del ciclista hasta que el mismo haya cruzado la otra arteria vial c) Que se encuentren circulando por una ciclovía y los vehículos particulares pretendan cruzarla</li>
+<li>Circular por todas las vialidades del estado a excepción de los carriles de alta velocidad y vialidades que estén expresamente prohibidas mediante señalización</li>
+</ul>
+</p>
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <div>
+    <img src="imagenes/bike-icon.png">
+   </div>
+   <h4> Aplicación Tres LMW</h4>
+  </div>
+ </div>
+
+</body>
+</html>
+        
