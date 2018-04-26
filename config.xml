@@ -4,10 +4,10 @@
  id = "com.phonegap.app1"
  version= "1.0.0">
 
-<name> app2-2018 Datos Alumnos </name>
+<name> app3-2018 Dia mundial de la bicicleta </name>
 
 <description>
-Aplicacion que muestra los datos del Alumno
+Aplicacion sobre bicicletas
 </description>
 
 <author href="https://build.phonegap.com" email="less_wreste15@hotmail.com">
@@ -22,6 +22,16 @@ Lesly Milan Wreste
 <preference name="fullscreen"   value="true"/>
 <preference name="android-installLocation"   value="auto"/>
 <preference name="permissions"   value="INTERNET"/>
+
+
+<preference name="permisions" value="internet"/>
+
+<allow-intent href="https://*/*"/>
+<acces origin="https://*/*"/>
+<allow-intent href="http://*/*"/>
+<acces origin="https://*/*"/>
+<plugin name="cordova-plugin-whitelist" source="npm"/>
+
 
 <!--Plugins -->
 <!-- Core plugins -->
